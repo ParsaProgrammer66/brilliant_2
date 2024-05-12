@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chat</title>
+    <link rel="stylesheet" href="{% static './style/font.css' %}">
+    <link rel="stylesheet" href="{% static './style/reset.css' %}">
+    <link rel="stylesheet" href="{% static './style/chat.css' %}">
+</head>
+
+<body>
+    <div class="main">
+        <div class="server">
+            <img src="{% static './FilmPicture/malek.jpg' %}" alt="">
+            <p>محمد حسین ملک محمدی</p>
+        </div>
+        <div class="chat">
+            <input type="text" name="chat" id="chat" class="" placeholder="لطفا پیغام خود را بنویسید" required >
+            <a href="#">ارسال پیغام</a>
+        </div>
+    </div>
+
+</body>
+
+</html>

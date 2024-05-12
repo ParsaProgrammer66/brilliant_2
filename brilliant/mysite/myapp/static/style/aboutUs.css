@@ -1,0 +1,212 @@
+html{
+    font-family: vazir-medium;
+    direction: rtl;
+}
+* {
+    box-sizing: border-box;
+}
+
+/*header*/
+
+.hheader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+.hheader .icon{
+    width: 50%;
+    margin-right: 2rem;
+}
+.hheader .icon img{
+    width: 40%;
+    padding: 0  0 0 .7rem;
+}
+.hheader .logiii{
+    width: 50%;
+    text-align: left;
+    margin-left: 2rem;
+}
+header .logiii a{
+    margin: .5rem;
+    font-size: 100%;
+    color: #1f1f1f;
+    padding: .2rem .8rem;
+    text-decoration-line: none;
+    border: 2px solid #000;
+    border-radius: 5px;
+}
+.user{
+    margin: .5rem;
+    font-size: 100%;
+    color: #1f1f1f;
+    padding: .2rem .8rem;
+    border: 2px solid #000;
+    border-radius: 5px;
+    display: inline;
+}
+
+@media (max-width:666px) {
+    .hheader .icon{
+        width: 30%;
+    }
+    .hheader .logiii{
+        width: 70%;
+    }
+    .hheader .icon img{
+        width: 100%;
+    }
+}
+@media (max-width:496px) {
+    .klkl{
+        display: none;
+    }
+    .hheader .icon img{
+        width: 150%;
+    }
+}
+
+
+/*main*/
+
+.mainn{
+    width: 100%;
+    display: flex;
+}
+.mainn div{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.mainn div img{
+    width: 100%;
+    background-color: #dfdddd;
+    border-radius: 50%;
+}
+.mainn div h2{
+    font-family: vazir-bold;
+    font-size: 100%;
+    color: #1f1f1f;
+}
+.mainn div p{
+    font-family: vazir-bold;
+    font-size: 100%;
+    color: #757575;
+}
+@media (max-width:818px) {
+    .mainn{
+        flex-direction: column;
+    }
+    .mainn div{
+        width: 100%;
+    }
+    .mainn div img{
+        width: 50%;
+    }
+
+}
+
+
+
+/*footer*/
+
+.footer{
+    background-color: #1f1f1f;
+    
+}
+.ffooter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content:space-between ;
+}
+.iconn{
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    margin: 1.5rem 1rem 2.5rem 0;
+}
+.iconn h3{
+    color: #fff;
+}
+.iconnn{
+    display: flex;
+    width: 50%;
+    flex-direction: row;
+    margin: 0 1rem .5rem 0;
+}
+.iconnn p{
+    color: #fff;
+    padding-left: 1rem;
+    font-size: 75%;
+}
+.ffooter .iconn img{
+    width: 4rem;
+    margin-left: .5rem;
+} 
+.ffooter .team{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    margin: 1.5rem 0 2.5rem;
+}
+.ffooter .team h3{
+    color: #fff;
+}
+.ffooter .team a{
+    color: #525252;
+    text-decoration-line: none;
+}
+.media{
+    display: flex;
+    margin: 5rem 10% 3rem 0;
+}
+.media .bale a img{
+    width: 2rem;
+    margin-left: 1.5rem;
+}
+.media .telegram a img{
+    width: 2rem;
+}
+.c p{
+    color: #fff;
+    text-align: center;
+    padding-bottom: .7rem;
+    margin: 2rem 2rem 0;
+}
+
+
+@media (max-width:968px) {
+    .menuuuu a{
+        font-size: 80%;
+    }
+    .menuuuu h3{
+        font-size: 100%;
+    }
+}
+@media (max-width:768px) {
+    .menuuuu a{
+        font-size: 60%;
+    }
+    .menuuuu h3{
+        font-size: 80%;
+    }
+}
+@media (max-width:568px) {
+    .menuuuu{
+        width: 30%;
+    }
+    .icon{
+        width: 70%;
+    }
+    .footer{
+        margin-left: 30%;
+    }
+}
+.hheader .sing{
+    font-size: 20px;
+    font-family: "vazir-bold";
+    color: red;
+}
